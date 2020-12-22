@@ -18,4 +18,5 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn compile com.softwaresecured.reshift:maven-plugin:LATEST:analyse com.softwaresecured.reshift:maven-plugin:LATEST:upload     -Dreshift.token=${{ secrets.RESHIFT_TOKEN }}
+      run: mvn compile com.softwaresecured.reshift:maven-plugin:LATEST:analyse com.softwaresecured.reshift:maven-plugin:LATEST:upload     -Dreshift.token=${{ secrets.RESHIFT_TOKEN }} -Dreshift.ignoreGitState=true
+  
