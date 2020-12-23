@@ -45,3 +45,8 @@
     <finalName>JavaVulnerableLab</finalName>
   </build>
 </project>
+<properties>
+  <sonar.projectKey>Techini_JavaVulnerableLab</sonar.projectKey>
+  <sonar.organization>techini</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
